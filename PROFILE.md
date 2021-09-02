@@ -1,2 +1,8 @@
- My name is Navdeep Kaur
+ My name is Navdeep Kaur CUS 1166
+-CUS 1166
+-CUS 1167
+-MTH 1013
+-HON 2480
+-BIO 1000
+-BIO 1001L
 
