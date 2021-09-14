@@ -1,0 +1,75 @@
+Practicing print and input
+Hello Word
+What is your name: Navdeep
+Hello Navdeep
+Done
+Practicing variables
+Variable i has the value 120
+Variable f has the value 1.6180339 and its type is <class 'float'>
+Variable b has the value True
+Variable n has the value of None
+ c[0] has the value 10 and is of type: <class 'tuple'>
+Done
+Practicing variables
+ l[0] has the value 10 and is of type: <class 'list'>
+{1, 4, 6}
+Done
+Practicing conditionals
+The number x is positive
+Done
+Practicing loops
+0
+0 - 2
+1 - 3
+2 - 4
+3 - 5
+4 - 6
+5 - 7
+6 - 8
+7 - 9
+1
+0 - 2
+1 - 3
+2 - 4
+3 - 5
+4 - 6
+5 - 7
+6 - 8
+7 - 9
+2
+0 - 2
+1 - 3
+2 - 4
+3 - 5
+4 - 6
+5 - 7
+6 - 8
+7 - 9
+3
+0 - 2
+1 - 3
+2 - 4
+3 - 5
+4 - 6
+5 - 7
+6 - 8
+7 - 9
+4
+0 - 2
+1 - 3
+2 - 4
+3 - 5
+4 - 6
+5 - 7
+6 - 8
+7 - 9
+Done
+Practicing using functions
+Done
+Defining classes
+Done
+Define a module file
+Done
+
+
+
