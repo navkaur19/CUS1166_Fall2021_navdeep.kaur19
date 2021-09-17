@@ -1,0 +1,11 @@
+Name of the student is John, and their grade is 90
+Name of the student is Joe, and their grade is 87
+Name of the student is Kt, and their grade is 91
+Name of the student is Paris, and their grade is 90
+Name of the student is Lilly, and their grade is 89
+Name of the student is Kevin, and their grade is 92
+Name of the student is Michael, and their grade is 94
+Name of the student is Reggie, and their grade is 90
+Name of the student is Justin, and their grade is 82
+Name of the student is Navi, and their grade is 88
+Average score of the class is: 89.3
