@@ -1,0 +1,11 @@
+Name of the student is Aman, and their grade is 97
+Name of the student is Jasmine, and their grade is 78
+Name of the student is Valentine, and their grade is 91
+Name of the student is Rohan, and their grade is 81
+Name of the student is Chandler, and their grade is 79
+Name of the student is Monica, and their grade is 92
+Name of the student is McCallister, and their grade is 100
+Name of the student is Reggie, and their grade is 85
+Name of the student is Sahib, and their grade is 82
+Name of the student is Navi, and their grade is 87
+Average score of the class is: 87.2
