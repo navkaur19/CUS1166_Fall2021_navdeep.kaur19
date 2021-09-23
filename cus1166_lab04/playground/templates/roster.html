@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Roster</title>
+  </head>
+  <body>
 
+      {% if grade_view == 0 %}
+        {% for student in class_roster % }
+        <li>
+      Name: {{student[0]}}, Grade: {{student[1]}}, Class Standing: {{student[2]}}
+      </li>
+        {% endfor %}
+      {% endif %}
+
+      { % if grade_view == 1 %}
+        {% for student in class_roster %}
+      <li>
+      Name: {{student[0]}},  Grade: {{student[1]}}
+      </li>
+       {% endfor %}
+      {% endif %}
+
+      {% if grade_view == 2 %}
+        {% for student in class_roster %}
+        <li>
+    Name: {{student[0]}},  Class Standing: {{student[2]}}
+        </li>
+        {% endfor %}
+      {% endif %}
+
+  </body>
+</html>
