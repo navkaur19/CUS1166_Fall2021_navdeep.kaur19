@@ -1,1 +1,31 @@
+<html>
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css", rel="stylesheet">
+  <h1>Welcome to CUS 1166!</h1>
+</head>
+<body>
 
+  <div class="container">
+     <div class="mt-1">
+       <h2>Courses List</h2>
+       <ul>
+       {% for course in courses %}
+       <a href={{url_for('register_student', course_id=course.id)}}>
+         <li> {{course.course_title}} to {{course.course_number}}  </li>
+       {% endfor %}
+       </a>
+       </ul>
+     </div>
+     <div class="mt-1">
+        <form action="{{url_for('add_course')}}" method="post">
+          <input type="text" course_title="course_title" placeholder="Enter course_title">
+          <input type="text" course_number="course_number" placeholder="Enter course_number">
+          <button type="submit"> Add course </button>
+     </div>
+  </div>
+
+<ul>
+{% for course in courses %}
+  <li> {{course.course_number}} to {{course.course_title}} </li>
+{% endfor %}
+</ul>

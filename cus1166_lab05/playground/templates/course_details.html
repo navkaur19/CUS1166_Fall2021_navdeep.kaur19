@@ -1,1 +1,32 @@
+<html>
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css", rel="stylesheet">
+  <h1>Welcome to your course details </h1>
+  </head>
+<body>
+  <div class="container">
+     <div class="mt-1">
+       <h4> Course {{course.course_number}}-{{course.id}} from {{course.course_title}}</h4>
+       <h4>Current Students </h4>
+       <ul>
+       {% for registeredStudent in registeredstudents %}
+         <li> {{registeredStudent.name}}  to {{registeredStudent.grade }} </li>
+       {% endfor %}
+       </ul>
+     </div>
 
+     <div class="mt-1">
+       <h4>Add a course  </h4>
+        <form action="{{url_for('register_student', course_id=course.id)}}" method="post">
+          <input type="text" name="name" placeholder="Student Name">
+          <input type="text" name="grade" placeholder="Student Grade">
+          <button type="submit"> Add Course</button>
+     </div>
+  </div>
+
+<ul>
+{% for course in courses %}
+  <li> {{course.course_title}} to {{course.course_number}} </li>
+{% endfor %}
+</ul>
+</body>
